@@ -24,6 +24,5 @@ class classname(object):
             self.connect.rollback()
         finally:
             self.cursor.close()
-        
 
     
