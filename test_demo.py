@@ -25,4 +25,17 @@ class classname(object):
         finally:
             self.cursor.close()
 
-    
+    def select(self,sql):
+        self.cursor=self.connect.cursor()
+        try:
+            self.cursor.execute(sql)
+            data=self.cursor.fetchall()
+            for select_data in data:
+                print(select_data)
+        except:
+            print("没有返回数据")
+        finally:
+            self.cursor.close()
+
+    def close_db(self):
+        self.connect.close()
