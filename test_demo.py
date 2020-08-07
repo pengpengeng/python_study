@@ -25,7 +25,10 @@ class classname(object):
         finally:
             self.cursor.close()
 
+
+
     def select(self,sql):
+        
         self.cursor=self.connect.cursor()
         try:
             self.cursor.execute(sql)
@@ -37,5 +40,17 @@ class classname(object):
         finally:
             self.cursor.close()
 
+    def updata(self,sql):
+        self.cursor=self.connect.cursor()
+        try:
+            self.cursor.execute(sql)
+        except:
+            self.connect.rollback()
+        finally:
+            self.cursor.close()
+
     def close_db(self):
         self.connect.close()
+
+    if __name__ == "__main__":
+        print("5")
