@@ -3,7 +3,7 @@ import requests
 import json
 import time
 import pymysql
-class classname(object):
+class Operta_mysql(object):
     def __init__(self,host,port,user,password,db):
         self.host=host
         self.port=port
@@ -54,3 +54,4 @@ class classname(object):
 
     if __name__ == "__main__":
         print("5")
+        
