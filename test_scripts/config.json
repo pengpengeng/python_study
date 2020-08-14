@@ -1,0 +1,7 @@
+{
+    "host":"10.32.1.2",
+    "port":3306,
+    "user":"root",
+    "password":"8YBibPmekK9LXcWsFnHw",
+    "db":"db_user"
+}
