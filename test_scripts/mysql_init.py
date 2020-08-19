@@ -11,17 +11,17 @@ class Operta_mysql(object):
         self.user=user
         self.password=password
         self.db=db
-        
         self.connect=pymysql.connect(self.host,self.user,self.password,self.db,self.port,charset='utf8')
-
+        
 
 
     def delete(self,sql):
+        self.connect.ping(reconnect=True)
         self.cursor=self.connect.cursor()
         
         try:
             for i in sql.split(";"):
-
+                self.db.ping(reconnect=True)
                 self.cursor.execute(i)
                 self.connect.commit()
             return True
@@ -34,9 +34,10 @@ class Operta_mysql(object):
 
 
     def select(self,sql):
-        
+        self.connect.ping(reconnect=True)
         self.cursor=self.connect.cursor()
         try:
+            self.db.ping(reconnect=True)
             self.cursor.execute(sql)
             data=self.cursor.fetchall()
             
@@ -50,13 +51,17 @@ class Operta_mysql(object):
         
 
     def updata(self,sql):
+        self.connect.ping(reconnect=True)
         self.cursor=self.connect.cursor()
         try:
-            self.cursor.execute(sql)
+            for i in sql.split(";"):
+                self.cursor.execute(i)
+                self.connect.commit()
+            return True
         except:
             self.connect.rollback()
-        finally:
-            self.cursor.close()
+            return False
+      
 
     def close_db(self):
         self.connect.close()
