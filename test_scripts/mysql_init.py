@@ -21,9 +21,10 @@ class Operta_mysql(object):
         
         try:
             for i in sql.split(";"):
-                self.db.ping(reconnect=True)
+               
                 self.cursor.execute(i)
                 self.connect.commit()
+            print("删除成功")
             return True
         except:
             self.connect.rollback()
@@ -37,12 +38,12 @@ class Operta_mysql(object):
         self.connect.ping(reconnect=True)
         self.cursor=self.connect.cursor()
         try:
-            self.db.ping(reconnect=True)
+           
             self.cursor.execute(sql)
             data=self.cursor.fetchall()
             
             # for select_data in data:
-            #     print(select_data)
+            #      print(select_data)
             return data
         except:
             print("没有返回数据")
@@ -68,6 +69,6 @@ class Operta_mysql(object):
 
 if __name__ == "__main__":
     Operta=Operta_mysql('10.32.1.2',3306,'root','8YBibPmekK9LXcWsFnHw','db_user')
-    sql="select * from user_user where userid = 36552518 or userid =23540197"
+    sql="select userid from user_user where phone = 36552518 or userid =23540197"
     Operta.select(sql)
         
