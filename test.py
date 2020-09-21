@@ -12,5 +12,6 @@ headers = {
 }
 
 response = requests.request("POST", url, headers=headers, data = payload)
-
-print(response.text.encode('utf8'))
+a=True
+print(range(2,10,2))
+    

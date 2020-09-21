@@ -58,7 +58,7 @@ def get_token():
 
 if __name__ == "__main__":
     #获取token
-    get_token()
+    #get_token()
 
     #查找添加用户或删除用户
-    #opermysql()
+    opermysql()
