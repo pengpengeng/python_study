@@ -3,3 +3,4 @@ unzip -o ${TEST_ID}.zip -d ${TESTS_DIR}
 for file in ${TESTS_DIR}/*.jmx; do
   jmeter -n -t ${file} -Jserver.rmi.ssl.disable=${SSL_DISABLED} -l ${TESTS_DIR}/$report.jtl
 done
+/jmeter/download?testId=&resourceId=&ratio=&startTime=&reportId=&resourceIndex=&threadNum=:

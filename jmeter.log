@@ -1,0 +1,66 @@
+2021-02-23 17:43:28,230 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2021-02-23 17:43:28,277 INFO o.a.j.JMeter: Loading user properties from: /Users/zhangpeng/Downloads/apache-jmeter-5.3/bin/user.properties
+2021-02-23 17:43:28,281 INFO o.a.j.JMeter: Loading system properties from: /Users/zhangpeng/Downloads/apache-jmeter-5.3/bin/system.properties
+2021-02-23 17:43:28,286 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2021-02-23 17:43:28,286 INFO o.a.j.JMeter: Version 5.3
+2021-02-23 17:43:28,286 INFO o.a.j.JMeter: java.version=1.8.0_271
+2021-02-23 17:43:28,286 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-02-23 17:43:28,287 INFO o.a.j.JMeter: os.name=Mac OS X
+2021-02-23 17:43:28,287 INFO o.a.j.JMeter: os.arch=x86_64
+2021-02-23 17:43:28,287 INFO o.a.j.JMeter: os.version=10.14.3
+2021-02-23 17:43:28,287 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-02-23 17:43:28,287 INFO o.a.j.JMeter: java.awt.headless=true
+2021-02-23 17:43:28,287 INFO o.a.j.JMeter: Max memory     =1908932608
+2021-02-23 17:43:28,287 INFO o.a.j.JMeter: Available Processors =4
+2021-02-23 17:43:28,298 INFO o.a.j.JMeter: Default Locale=中文 (中国)
+2021-02-23 17:43:28,298 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
+2021-02-23 17:43:28,298 INFO o.a.j.JMeter: JMeterHome=/Users/zhangpeng/Downloads/apache-jmeter-5.3
+2021-02-23 17:43:28,298 INFO o.a.j.JMeter: user.dir  =/Users/zhangpeng/Downloads/git_file/python_study
+2021-02-23 17:43:28,299 INFO o.a.j.JMeter: PWD       =/Users/zhangpeng/Downloads/git_file/python_study
+2021-02-23 17:43:33,381 INFO o.a.j.JMeter: IP: 192.168.97.16 Name: zhangpengdeMacBook-Pro.local FullName: 192.168.97.16
+2021-02-23 17:43:33,386 INFO o.a.j.s.FileServer: Default base='/Users/zhangpeng/Downloads/git_file/python_study'
+2021-02-23 17:43:33,391 INFO o.a.j.s.FileServer: Set new base='/Users/zhangpeng/Downloads'
+2021-02-23 17:43:33,555 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-02-23 17:43:33,576 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-02-23 17:43:33,581 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-02-23 17:43:33,587 INFO o.a.j.s.SaveService: Loading file: /Users/zhangpeng/Downloads/易置换_新检测_评估平台存管.jmx
+2021-02-23 17:43:33,645 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-02-23 17:43:33,645 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-02-23 17:43:33,646 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-02-23 17:43:33,646 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-02-23 17:43:33,646 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-02-23 17:43:33,646 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-02-23 17:43:34,051 INFO o.a.j.JMeter: Creating summariser <summary>
+2021-02-23 17:43:34,059 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-02-23 17:43:34,060 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-02-23 17:43:34,061 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-02-23 17:43:34,066 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-02-23 17:43:34,066 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-02-23 17:43:34,589 INFO o.a.j.JMeter: 正在运行的测试 (1614073414589)
+2021-02-23 17:43:34,652 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 新检测_评估
+2021-02-23 17:43:34,652 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 新检测_评估.
+2021-02-23 17:43:34,652 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-02-23 17:43:34,652 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-02-23 17:43:34,664 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-02-23 17:43:34,664 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-02-23 17:43:34,701 INFO o.a.j.t.JMeterThread: Thread started: 新检测_评估 1-1
+2021-02-23 17:43:39,728 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = zhangpengdeMacBook-Pro.local
+2021-02-23 17:43:39,740 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2021-02-23 17:43:39,742 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-02-23 17:43:39,742 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-02-23 17:43:39,742 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-02-23 17:43:39,743 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-02-23 17:43:41,801 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2021-02-23 17:43:41,808 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2021-02-23 17:43:41,808 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2021-02-23 17:43:42,090 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2021-02-23 17:43:42,093 INFO o.a.j.u.SSLManager: KeyStore created OK
+2021-02-23 17:43:42,093 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2021-02-23 17:44:02,202 INFO o.a.j.r.Summariser: summary +      9 in 00:00:28 =    0.3/s Avg:  1254 Min:   107 Max:  5407 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2021-02-23 17:45:01,045 INFO o.a.j.r.Summariser: summary +     22 in 00:00:59 =    0.4/s Avg:   421 Min:    61 Max:  1669 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2021-02-23 17:45:01,047 INFO o.a.j.r.Summariser: summary =     31 in 00:01:26 =    0.4/s Avg:   663 Min:    61 Max:  5407 Err:     0 (0.00%)
+2021-02-23 17:45:27,169 INFO o.a.j.t.JMeterThread: Thread is done: 新检测_评估 1-1
+2021-02-23 17:45:27,169 INFO o.a.j.t.JMeterThread: Thread finished: 新检测_评估 1-1
+2021-02-23 17:45:27,171 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-02-23 17:45:27,172 INFO o.a.j.r.Summariser: summary +      6 in 00:00:26 =    0.2/s Avg:   850 Min:     1 Max:  2288 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+2021-02-23 17:45:27,172 INFO o.a.j.r.Summariser: summary =     37 in 00:01:53 =    0.3/s Avg:   693 Min:     1 Max:  5407 Err:     0 (0.00%)

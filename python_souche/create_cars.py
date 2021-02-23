@@ -17,3 +17,4 @@ class Requests_methon(object):
 if __name__ == "__main__":
     request1s = Requests_methon('22', '23123')
     request1s.request_get()
+
